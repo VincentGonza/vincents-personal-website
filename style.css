@@ -42,7 +42,7 @@ a {
     text-decoration: underline;
 }
 a:hover {
-    color: #D29C97;
+    color: black;
 }
 a:focus {
     color: #247BA0;
