@@ -20,7 +20,92 @@ footer {
 .navbar-light {
   background: #F49170;
 }
+.page-sections {
+	position: relative;
+}
 
+.header{
+  min-height: 100vh;
+    background: url(./keyboard.jpg) no-repeat;
+    background-size:100vw;
+    background-repeat:no-repeat;
+    max-height: 100vh;
+  }
+)
+/* P O R T F O L I O */
+
+
+#portfolio{
+	padding: 80px 0;
+    background: #EBEEEE;
+}
+
+
+#portfolio h2{
+    padding: 0;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+#portfolio img{
+	max-width: 100%;
+}
+
+#portfolio .row > div{
+	margin-bottom: 1.5rem;
+    position: relative;
+}
+
+
+
+#portfolio .row div .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: calc(100% - 30px);
+    transform: scale(0);
+    margin: auto;
+    opacity: 0;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    background: rgba(0, 0, 0, .55);
+    border-radius: 20%;
+}
+
+#portfolio .row div:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+    height: 100%;
+    border-radius: 0;
+}
+
+#portfolio .row div .overlay h3{
+    color: #f7f7f7;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -200%);
+            transform: translate(-50%, -200%);
+    -ms-transform: translate(-50%, -200%);
+    letter-spacing: .05em;
+}
+
+.overlay h3.project-title{
+    -webkit-transform: translate(-50%, -50%) !important;
+            transform: translate(-50%, -50%) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+}
+
+/* ending of section*/
 .navbar-toggler {
   margin-top: 10px;
   background: transparent;
@@ -53,6 +138,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 4.75rem;
+  margin-top: 75px;
+
+}
+.data{
+  font-size: 3.0rem;
 }
 h2 {
   font-size: 3rem;
@@ -80,9 +170,8 @@ p, ul {
 .header {
   position: relative;
   width: 100%;
-  min-height: auto;
+  min-height: 90vh;
   padding-left: 2rem;
-    background: url(http://www.katelynlemay.com/images/client-splash.jpg) no-repeat center center scroll;
      background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
