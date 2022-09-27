@@ -18,7 +18,7 @@ footer {
   margin-bottom: 8px;
 }
 .navbar-light {
-  background: #F49170;
+  background: #f4f270;
 }
 .page-sections {
 	position: relative;
@@ -31,7 +31,7 @@ footer {
     background-repeat:no-repeat;
     max-height: 100vh;
   }
-)
+
 /* P O R T F O L I O */
 
 
@@ -183,7 +183,7 @@ p, ul {
  
 }
 .btn-secondary {
-  background: #E7AF00;
+  background: #f4f270;
   border-radius: 100px;
   padding: 2px 14px;
   margin-top: 1rem;
@@ -192,7 +192,7 @@ p, ul {
 }
 .btn-secondary:hover {
   background: #247BA0;
-  color: #E7AF00;
+  color: #f4f270;
   border: 3px solid #247BA0;
 }
 .service-name {
@@ -245,7 +245,7 @@ p, ul {
   margin-bottom: -1px;
 }
 .bottom-nav > a {
-  color: #D5573B;
+  color: #000000;
 }
 .credits {
   margin-top: -12px;
